@@ -1,0 +1,130 @@
+
+<html>
+<head>
+<title>tgs</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+/* Style the header */
+
+.header {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    
+}
+
+/* Style the top navigation bar */
+
+.topnav {
+    overflow: hidden;
+    background-color: #696969;
+}
+
+/* Style the topnav links */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #dcdcdc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+
+.topnav a:hover {
+    color: #fff;
+}
+
+/* Create three unequal columns that floats next to each other */
+
+.column {
+    float: left;
+    padding: 10px;
+    
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%; 
+   
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+    background-color: #696969;
+}
+
+/* Clear floats after the columns */
+.row {
+    display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and    
+  (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+/* Style the footer */
+.footer {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="ppp.jpg"width="350"height="150">
+</div>  
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+</div>
+
+<div class="row">
+  <div class="column side">
+  <br> <p align="center"><a href="#">Link</a></br>
+  <br> <a href="#">Network</a></br>
+  <br> <a href="#">Social</a></br>
+  <br> <a href="#">Website</a></br>
+  <br> <a href="#">Klik</a></br>
+  </div> 
+  <div class="column middle">
+    <h2>Page Heading</h2>
+        <p>A three column layout with header, navigation bar and footer sections. The first, second and fourth table rows create the header, navigation bar and footer respectively  and contain a single table cell each. All these table cells use colspan="3"attribute-value pair.</p>
+        <br></br>
+        <p>The third table row contains three table cells which create the menu column (left), the content column (middle) and the extra column (right).</p>
+  </div>
+  <div class="column side">
+    <h2>Biodate</h2>
+    <p>Muhammad Iklil Aras</p>
+    <p>5180411354</p>
+    <p>iklilaras7@gmail.com</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>~~FOOTER~~</h2>
+</div>
+  
+</body>
+</html>
